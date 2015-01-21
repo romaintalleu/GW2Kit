@@ -31,7 +31,7 @@ Type : GWKItemTypeWeapon
 Level : 44
 ```
 ### Wvw Match Example
-```
+```objc
 //Fin match id by a server id, 2103 is Augury rock server
 NSString* matchId = [GWKHelpers fetchMatchIdWithServerId:@"2103"];
 //GWKMatch from match id
@@ -71,7 +71,7 @@ Structure Red Home : {
 }
 ```
 ### Use Partial Object
-```
+```objc
 //Create Partial Item
 GWKPartialItem *partialItem = [[GWKPartialItem alloc] init];
 partialItem.objectId = @"28445";
