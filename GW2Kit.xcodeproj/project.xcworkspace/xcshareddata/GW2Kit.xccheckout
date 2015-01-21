@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>357DCD75-A45A-494A-A0C9-556AD3201438</string>
+	<key>IDESourceControlProjectName</key>
+	<string>GW2Kit</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4E60B06B2DDDE22FA1D9A903BE2DB6BA4919951A</key>
+		<string>bitbucket.org:romaintalleu/gw2kit.git</string>
+		<key>E588C07BA92C4BD076FF3C3C2B98F1FE747913BD</key>
+		<string>bitbucket.org:romaintalleu/cubrik.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>GW2Kit.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4E60B06B2DDDE22FA1D9A903BE2DB6BA4919951A</key>
+		<string>../..</string>
+		<key>E588C07BA92C4BD076FF3C3C2B98F1FE747913BD</key>
+		<string>../../../cubrik</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>bitbucket.org:romaintalleu/gw2kit.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4E60B06B2DDDE22FA1D9A903BE2DB6BA4919951A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E588C07BA92C4BD076FF3C3C2B98F1FE747913BD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>cubrik</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4E60B06B2DDDE22FA1D9A903BE2DB6BA4919951A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>GW2Kit</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A300BDA1A437B1C002E745F /* GW2Kit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A300BD91A437B1C002E745F /* GW2Kit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A300BEC1A437B1C002E745F /* GW2Kit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A300BD51A437B1C002E745F /* GW2Kit.framework */; };
+		7A300BED1A437B1C002E745F /* GW2Kit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7A300BD51A437B1C002E745F /* GW2Kit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7A300C311A437B78002E745F /* GWKColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A300BF51A437B78002E745F /* GWKColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A300C321A437B78002E745F /* GWKColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A300BF61A437B78002E745F /* GWKColor.m */; };
+		7A300C331A437B78002E745F /* GWKConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A300BF71A437B78002E745F /* GWKConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A300C341A437B78002E745F /* GWKEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A300BF81A437B78002E745F /* GWKEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A300C351A437B78002E745F /* GWKEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A300BF91A437B78002E745F /* GWKEvent.m */; };
+		7A300C361A437B78002E745F /* GWKGuild.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A300BFA1A437B78002E745F /* GWKGuild.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A300C371A437B78002E745F /* GWKGuild.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A300BFB1A437B78002E745F /* GWKGuild.m */; };
+		7A300C381A437B78002E745F /* GWKHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A300BFC1A437B78002E745F /* GWKHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A300C391A437B78002E745F /* GWKHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A300BFD1A437B78002E745F /* GWKHelpers.m */; };
+		7A300C3A1A437B78002E745F /* GWKIconFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A300BFE1A437B78002E745F /* GWKIconFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A300C3B1A437B78002E745F /* GWKItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A300BFF1A437B78002E745F /* GWKItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A300C3C1A437B78002E745F /* GWKItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A300C001A437B78002E745F /* GWKItem.m */; };
+		7A300C3D1A437B78002E745F /* GWKItems.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A300C011A437B78002E745F /* GWKItems.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A300C3E1A437B78002E745F /* GWKItems.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A300C021A437B78002E745F /* GWKItems.m */; };
+		7A300C3F1A437B78002E745F /* GWKJSONDecoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A300C031A437B78002E745F /* GWKJSONDecoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A300C401A437B78002E745F /* GWKJSONDecoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A300C041A437B78002E745F /* GWKJSONDecoding.m */; };
+		7A300C411A437B78002E745F /* GWKMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A300C051A437B78002E745F /* GWKMap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A300C421A437B78002E745F /* GWKMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A300C061A437B78002E745F /* GWKMap.m */; };
+		7A300C431A437B78002E745F /* GWKMatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A300C071A437B78002E745F /* GWKMatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A300C441A437B78002E745F /* GWKMatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A300C081A437B78002E745F /* GWKMatch.m */; };
+		7A300C451A437B78002E745F /* GWKMatches.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A300C091A437B78002E745F /* GWKMatches.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A300C461A437B78002E745F /* GWKMatches.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A300C0A1A437B78002E745F /* GWKMatches.m */; };
+		7A300C471A437B78002E745F /* GWKObjectives.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A300C0B1A437B78002E745F /* GWKObjectives.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A300C481A437B78002E745F /* GWKObjectives.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A300C0C1A437B78002E745F /* GWKObjectives.m */; };
+		7A300C491A437B78002E745F /* GWKPartialColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A300C0D1A437B78002E745F /* GWKPartialColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A300C4A1A437B78002E745F /* GWKPartialColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A300C0E1A437B78002E745F /* GWKPartialColor.m */; };
+		7A300C4B1A437B78002E745F /* GWKPartialEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A300C0F1A437B78002E745F /* GWKPartialEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A300C4C1A437B78002E745F /* GWKPartialEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A300C101A437B78002E745F /* GWKPartialEvent.m */; };
+		7A300C4D1A437B78002E745F /* GWKPartialGuild.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A300C111A437B78002E745F /* GWKPartialGuild.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A300C4E1A437B78002E745F /* GWKPartialGuild.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A300C121A437B78002E745F /* GWKPartialGuild.m */; };
+		7A300C4F1A437B78002E745F /* GWKPartialItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A300C131A437B78002E745F /* GWKPartialItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A300C501A437B78002E745F /* GWKPartialItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A300C141A437B78002E745F /* GWKPartialItem.m */; };
+		7A300C511A437B78002E745F /* GWKPartialMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A300C151A437B78002E745F /* GWKPartialMap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A300C521A437B78002E745F /* GWKPartialMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A300C161A437B78002E745F /* GWKPartialMap.m */; };
+		7A300C531A437B78002E745F /* GWKPartialMatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A300C171A437B78002E745F /* GWKPartialMatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A300C541A437B78002E745F /* GWKPartialMatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A300C181A437B78002E745F /* GWKPartialMatch.m */; };
+		7A300C551A437B78002E745F /* GWKPartialObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A300C191A437B78002E745F /* GWKPartialObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A300C561A437B78002E745F /* GWKPartialRecipe.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A300C1A1A437B78002E745F /* GWKPartialRecipe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A300C571A437B78002E745F /* GWKPartialRecipe.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A300C1B1A437B78002E745F /* GWKPartialRecipe.m */; };
+		7A300C581A437B78002E745F /* GWKPartialSkin.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A300C1C1A437B78002E745F /* GWKPartialSkin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A300C591A437B78002E745F /* GWKPartialSkin.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A300C1D1A437B78002E745F /* GWKPartialSkin.m */; };
+		7A300C5A1A437B78002E745F /* GWKRecipe.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A300C1E1A437B78002E745F /* GWKRecipe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A300C5B1A437B78002E745F /* GWKRecipe.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A300C1F1A437B78002E745F /* GWKRecipe.m */; };
+		7A300C5C1A437B78002E745F /* GWKRecipes.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A300C201A437B78002E745F /* GWKRecipes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A300C5D1A437B78002E745F /* GWKRecipes.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A300C211A437B78002E745F /* GWKRecipes.m */; };
+		7A300C5E1A437B78002E745F /* GWKRenderService.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A300C221A437B78002E745F /* GWKRenderService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A300C5F1A437B78002E745F /* GWKRenderService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A300C231A437B78002E745F /* GWKRenderService.m */; };
+		7A300C601A437B78002E745F /* GWKRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A300C241A437B78002E745F /* GWKRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A300C611A437B78002E745F /* GWKRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A300C251A437B78002E745F /* GWKRequest.m */; };
+		7A300C621A437B78002E745F /* GWKRequestCallback.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A300C261A437B78002E745F /* GWKRequestCallback.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A300C631A437B78002E745F /* GWKSkin.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A300C271A437B78002E745F /* GWKSkin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A300C641A437B78002E745F /* GWKSkin.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A300C281A437B78002E745F /* GWKSkin.m */; };
+		7A300C651A437B78002E745F /* GWKSkins.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A300C291A437B78002E745F /* GWKSkins.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A300C661A437B78002E745F /* GWKSkins.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A300C2A1A437B78002E745F /* GWKSkins.m */; };
+		7A300C671A437B78002E745F /* GWKTileService.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A300C2B1A437B78002E745F /* GWKTileService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A300C681A437B78002E745F /* GWKTileService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A300C2C1A437B78002E745F /* GWKTileService.m */; };
+		7A300C691A437B78002E745F /* GWKWorlds.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A300C2D1A437B78002E745F /* GWKWorlds.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A300C6A1A437B78002E745F /* GWKWorlds.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A300C2E1A437B78002E745F /* GWKWorlds.m */; };
+		7A300C6B1A437B78002E745F /* GWKWvwMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A300C2F1A437B78002E745F /* GWKWvwMap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A300C6C1A437B78002E745F /* GWKWvwMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A300C301A437B78002E745F /* GWKWvwMap.m */; };
+		7AE8C73A1A436A8B0022B021 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE8C7391A436A8B0022B021 /* main.m */; };
+		7AE8C73D1A436A8B0022B021 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE8C73C1A436A8B0022B021 /* AppDelegate.m */; };
+		7AE8C7401A436A8B0022B021 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE8C73F1A436A8B0022B021 /* ViewController.m */; };
+		7AE8C7431A436A8B0022B021 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AE8C7411A436A8B0022B021 /* Main.storyboard */; };
+		7AE8C7451A436A8B0022B021 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AE8C7441A436A8B0022B021 /* Images.xcassets */; };
+		7AE8C7481A436A8B0022B021 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AE8C7461A436A8B0022B021 /* LaunchScreen.xib */; };
+		7AF50FD41A45713300D03D09 /* BlueCamp.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AF50FD01A45713300D03D09 /* BlueCamp.png */; };
+		7AF50FD51A45713300D03D09 /* BlueCastle.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AF50FD11A45713300D03D09 /* BlueCastle.png */; };
+		7AF50FD61A45713300D03D09 /* BlueKeep.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AF50FD21A45713300D03D09 /* BlueKeep.png */; };
+		7AF50FD71A45713300D03D09 /* BlueTower.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AF50FD31A45713300D03D09 /* BlueTower.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A300BEA1A437B1C002E745F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE76872E1A364EC800D6D6BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A300BD41A437B1C002E745F;
+			remoteInfo = GW2Kit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7A300BF11A437B1C002E745F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7A300BED1A437B1C002E745F /* GW2Kit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7A300BD51A437B1C002E745F /* GW2Kit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GW2Kit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A300BD81A437B1C002E745F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A300BD91A437B1C002E745F /* GW2Kit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GW2Kit.h; sourceTree = "<group>"; };
+		7A300BF51A437B78002E745F /* GWKColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWKColor.h; sourceTree = "<group>"; };
+		7A300BF61A437B78002E745F /* GWKColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWKColor.m; sourceTree = "<group>"; };
+		7A300BF71A437B78002E745F /* GWKConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWKConstants.h; sourceTree = "<group>"; };
+		7A300BF81A437B78002E745F /* GWKEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWKEvent.h; sourceTree = "<group>"; };
+		7A300BF91A437B78002E745F /* GWKEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWKEvent.m; sourceTree = "<group>"; };
+		7A300BFA1A437B78002E745F /* GWKGuild.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWKGuild.h; sourceTree = "<group>"; };
+		7A300BFB1A437B78002E745F /* GWKGuild.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWKGuild.m; sourceTree = "<group>"; };
+		7A300BFC1A437B78002E745F /* GWKHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWKHelpers.h; sourceTree = "<group>"; };
+		7A300BFD1A437B78002E745F /* GWKHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWKHelpers.m; sourceTree = "<group>"; };
+		7A300BFE1A437B78002E745F /* GWKIconFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWKIconFile.h; sourceTree = "<group>"; };
+		7A300BFF1A437B78002E745F /* GWKItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWKItem.h; sourceTree = "<group>"; };
+		7A300C001A437B78002E745F /* GWKItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWKItem.m; sourceTree = "<group>"; };
+		7A300C011A437B78002E745F /* GWKItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWKItems.h; sourceTree = "<group>"; };
+		7A300C021A437B78002E745F /* GWKItems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWKItems.m; sourceTree = "<group>"; };
+		7A300C031A437B78002E745F /* GWKJSONDecoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWKJSONDecoding.h; sourceTree = "<group>"; };
+		7A300C041A437B78002E745F /* GWKJSONDecoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWKJSONDecoding.m; sourceTree = "<group>"; };
+		7A300C051A437B78002E745F /* GWKMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWKMap.h; sourceTree = "<group>"; };
+		7A300C061A437B78002E745F /* GWKMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWKMap.m; sourceTree = "<group>"; };
+		7A300C071A437B78002E745F /* GWKMatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWKMatch.h; sourceTree = "<group>"; };
+		7A300C081A437B78002E745F /* GWKMatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWKMatch.m; sourceTree = "<group>"; };
+		7A300C091A437B78002E745F /* GWKMatches.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWKMatches.h; sourceTree = "<group>"; };
+		7A300C0A1A437B78002E745F /* GWKMatches.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWKMatches.m; sourceTree = "<group>"; };
+		7A300C0B1A437B78002E745F /* GWKObjectives.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWKObjectives.h; sourceTree = "<group>"; };
+		7A300C0C1A437B78002E745F /* GWKObjectives.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWKObjectives.m; sourceTree = "<group>"; };
+		7A300C0D1A437B78002E745F /* GWKPartialColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWKPartialColor.h; sourceTree = "<group>"; };
+		7A300C0E1A437B78002E745F /* GWKPartialColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWKPartialColor.m; sourceTree = "<group>"; };
+		7A300C0F1A437B78002E745F /* GWKPartialEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWKPartialEvent.h; sourceTree = "<group>"; };
+		7A300C101A437B78002E745F /* GWKPartialEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWKPartialEvent.m; sourceTree = "<group>"; };
+		7A300C111A437B78002E745F /* GWKPartialGuild.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWKPartialGuild.h; sourceTree = "<group>"; };
+		7A300C121A437B78002E745F /* GWKPartialGuild.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWKPartialGuild.m; sourceTree = "<group>"; };
+		7A300C131A437B78002E745F /* GWKPartialItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWKPartialItem.h; sourceTree = "<group>"; };
+		7A300C141A437B78002E745F /* GWKPartialItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWKPartialItem.m; sourceTree = "<group>"; };
+		7A300C151A437B78002E745F /* GWKPartialMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWKPartialMap.h; sourceTree = "<group>"; };
+		7A300C161A437B78002E745F /* GWKPartialMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWKPartialMap.m; sourceTree = "<group>"; };
+		7A300C171A437B78002E745F /* GWKPartialMatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWKPartialMatch.h; sourceTree = "<group>"; };
+		7A300C181A437B78002E745F /* GWKPartialMatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWKPartialMatch.m; sourceTree = "<group>"; };
+		7A300C191A437B78002E745F /* GWKPartialObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWKPartialObject.h; sourceTree = "<group>"; };
+		7A300C1A1A437B78002E745F /* GWKPartialRecipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWKPartialRecipe.h; sourceTree = "<group>"; };
+		7A300C1B1A437B78002E745F /* GWKPartialRecipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWKPartialRecipe.m; sourceTree = "<group>"; };
+		7A300C1C1A437B78002E745F /* GWKPartialSkin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWKPartialSkin.h; sourceTree = "<group>"; };
+		7A300C1D1A437B78002E745F /* GWKPartialSkin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWKPartialSkin.m; sourceTree = "<group>"; };
+		7A300C1E1A437B78002E745F /* GWKRecipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWKRecipe.h; sourceTree = "<group>"; };
+		7A300C1F1A437B78002E745F /* GWKRecipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWKRecipe.m; sourceTree = "<group>"; };
+		7A300C201A437B78002E745F /* GWKRecipes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWKRecipes.h; sourceTree = "<group>"; };
+		7A300C211A437B78002E745F /* GWKRecipes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWKRecipes.m; sourceTree = "<group>"; };
+		7A300C221A437B78002E745F /* GWKRenderService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWKRenderService.h; sourceTree = "<group>"; };
+		7A300C231A437B78002E745F /* GWKRenderService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWKRenderService.m; sourceTree = "<group>"; };
+		7A300C241A437B78002E745F /* GWKRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWKRequest.h; sourceTree = "<group>"; };
+		7A300C251A437B78002E745F /* GWKRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWKRequest.m; sourceTree = "<group>"; };
+		7A300C261A437B78002E745F /* GWKRequestCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWKRequestCallback.h; sourceTree = "<group>"; };
+		7A300C271A437B78002E745F /* GWKSkin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWKSkin.h; sourceTree = "<group>"; };
+		7A300C281A437B78002E745F /* GWKSkin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWKSkin.m; sourceTree = "<group>"; };
+		7A300C291A437B78002E745F /* GWKSkins.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWKSkins.h; sourceTree = "<group>"; };
+		7A300C2A1A437B78002E745F /* GWKSkins.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWKSkins.m; sourceTree = "<group>"; };
+		7A300C2B1A437B78002E745F /* GWKTileService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWKTileService.h; sourceTree = "<group>"; };
+		7A300C2C1A437B78002E745F /* GWKTileService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWKTileService.m; sourceTree = "<group>"; };
+		7A300C2D1A437B78002E745F /* GWKWorlds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWKWorlds.h; sourceTree = "<group>"; };
+		7A300C2E1A437B78002E745F /* GWKWorlds.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWKWorlds.m; sourceTree = "<group>"; };
+		7A300C2F1A437B78002E745F /* GWKWvwMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWKWvwMap.h; sourceTree = "<group>"; };
+		7A300C301A437B78002E745F /* GWKWvwMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWKWvwMap.m; sourceTree = "<group>"; };
+		7AE8C7351A436A8B0022B021 /* GW2 Reports.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GW2 Reports.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AE8C7381A436A8B0022B021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AE8C7391A436A8B0022B021 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7AE8C73B1A436A8B0022B021 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7AE8C73C1A436A8B0022B021 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7AE8C73E1A436A8B0022B021 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7AE8C73F1A436A8B0022B021 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7AE8C7421A436A8B0022B021 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7AE8C7441A436A8B0022B021 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7AE8C7471A436A8B0022B021 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7AF50FD01A45713300D03D09 /* BlueCamp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlueCamp.png; sourceTree = "<group>"; };
+		7AF50FD11A45713300D03D09 /* BlueCastle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlueCastle.png; sourceTree = "<group>"; };
+		7AF50FD21A45713300D03D09 /* BlueKeep.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlueKeep.png; sourceTree = "<group>"; };
+		7AF50FD31A45713300D03D09 /* BlueTower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlueTower.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A300BD11A437B1C002E745F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AE8C7321A436A8B0022B021 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A300BEC1A437B1C002E745F /* GW2Kit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A300BD61A437B1C002E745F /* GW2Kit */ = {
+			isa = PBXGroup;
+			children = (
+				7A300BD91A437B1C002E745F /* GW2Kit.h */,
+				7A300BF51A437B78002E745F /* GWKColor.h */,
+				7A300BF61A437B78002E745F /* GWKColor.m */,
+				7A300BF71A437B78002E745F /* GWKConstants.h */,
+				7A300BF81A437B78002E745F /* GWKEvent.h */,
+				7A300BF91A437B78002E745F /* GWKEvent.m */,
+				7A300BFA1A437B78002E745F /* GWKGuild.h */,
+				7A300BFB1A437B78002E745F /* GWKGuild.m */,
+				7A300BFC1A437B78002E745F /* GWKHelpers.h */,
+				7A300BFD1A437B78002E745F /* GWKHelpers.m */,
+				7A300BFE1A437B78002E745F /* GWKIconFile.h */,
+				7A300BFF1A437B78002E745F /* GWKItem.h */,
+				7A300C001A437B78002E745F /* GWKItem.m */,
+				7A300C011A437B78002E745F /* GWKItems.h */,
+				7A300C021A437B78002E745F /* GWKItems.m */,
+				7A300C031A437B78002E745F /* GWKJSONDecoding.h */,
+				7A300C041A437B78002E745F /* GWKJSONDecoding.m */,
+				7A300C051A437B78002E745F /* GWKMap.h */,
+				7A300C061A437B78002E745F /* GWKMap.m */,
+				7A300C071A437B78002E745F /* GWKMatch.h */,
+				7A300C081A437B78002E745F /* GWKMatch.m */,
+				7A300C091A437B78002E745F /* GWKMatches.h */,
+				7A300C0A1A437B78002E745F /* GWKMatches.m */,
+				7A300C0B1A437B78002E745F /* GWKObjectives.h */,
+				7A300C0C1A437B78002E745F /* GWKObjectives.m */,
+				7A300C0D1A437B78002E745F /* GWKPartialColor.h */,
+				7A300C0E1A437B78002E745F /* GWKPartialColor.m */,
+				7A300C0F1A437B78002E745F /* GWKPartialEvent.h */,
+				7A300C101A437B78002E745F /* GWKPartialEvent.m */,
+				7A300C111A437B78002E745F /* GWKPartialGuild.h */,
+				7A300C121A437B78002E745F /* GWKPartialGuild.m */,
+				7A300C131A437B78002E745F /* GWKPartialItem.h */,
+				7A300C141A437B78002E745F /* GWKPartialItem.m */,
+				7A300C151A437B78002E745F /* GWKPartialMap.h */,
+				7A300C161A437B78002E745F /* GWKPartialMap.m */,
+				7A300C171A437B78002E745F /* GWKPartialMatch.h */,
+				7A300C181A437B78002E745F /* GWKPartialMatch.m */,
+				7A300C191A437B78002E745F /* GWKPartialObject.h */,
+				7A300C1A1A437B78002E745F /* GWKPartialRecipe.h */,
+				7A300C1B1A437B78002E745F /* GWKPartialRecipe.m */,
+				7A300C1C1A437B78002E745F /* GWKPartialSkin.h */,
+				7A300C1D1A437B78002E745F /* GWKPartialSkin.m */,
+				7A300C1E1A437B78002E745F /* GWKRecipe.h */,
+				7A300C1F1A437B78002E745F /* GWKRecipe.m */,
+				7A300C201A437B78002E745F /* GWKRecipes.h */,
+				7A300C211A437B78002E745F /* GWKRecipes.m */,
+				7A300C221A437B78002E745F /* GWKRenderService.h */,
+				7A300C231A437B78002E745F /* GWKRenderService.m */,
+				7A300C241A437B78002E745F /* GWKRequest.h */,
+				7A300C251A437B78002E745F /* GWKRequest.m */,
+				7A300C261A437B78002E745F /* GWKRequestCallback.h */,
+				7A300C271A437B78002E745F /* GWKSkin.h */,
+				7A300C281A437B78002E745F /* GWKSkin.m */,
+				7A300C291A437B78002E745F /* GWKSkins.h */,
+				7A300C2A1A437B78002E745F /* GWKSkins.m */,
+				7A300C2B1A437B78002E745F /* GWKTileService.h */,
+				7A300C2C1A437B78002E745F /* GWKTileService.m */,
+				7A300C2D1A437B78002E745F /* GWKWorlds.h */,
+				7A300C2E1A437B78002E745F /* GWKWorlds.m */,
+				7A300C2F1A437B78002E745F /* GWKWvwMap.h */,
+				7A300C301A437B78002E745F /* GWKWvwMap.m */,
+				7A300BD71A437B1C002E745F /* Supporting Files */,
+			);
+			path = GW2Kit;
+			sourceTree = "<group>";
+		};
+		7A300BD71A437B1C002E745F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A300BD81A437B1C002E745F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7AE8C7361A436A8B0022B021 /* GW2 Reports */ = {
+			isa = PBXGroup;
+			children = (
+				7AF50FCF1A45713300D03D09 /* data */,
+				7AE8C73B1A436A8B0022B021 /* AppDelegate.h */,
+				7AE8C73C1A436A8B0022B021 /* AppDelegate.m */,
+				7AE8C73E1A436A8B0022B021 /* ViewController.h */,
+				7AE8C73F1A436A8B0022B021 /* ViewController.m */,
+				7AE8C7411A436A8B0022B021 /* Main.storyboard */,
+				7AE8C7441A436A8B0022B021 /* Images.xcassets */,
+				7AE8C7461A436A8B0022B021 /* LaunchScreen.xib */,
+				7AE8C7371A436A8B0022B021 /* Supporting Files */,
+			);
+			path = "GW2 Reports";
+			sourceTree = "<group>";
+		};
+		7AE8C7371A436A8B0022B021 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7AE8C7381A436A8B0022B021 /* Info.plist */,
+				7AE8C7391A436A8B0022B021 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7AF50FCF1A45713300D03D09 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				7AF50FD01A45713300D03D09 /* BlueCamp.png */,
+				7AF50FD11A45713300D03D09 /* BlueCastle.png */,
+				7AF50FD21A45713300D03D09 /* BlueKeep.png */,
+				7AF50FD31A45713300D03D09 /* BlueTower.png */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		CE76872D1A364EC800D6D6BF = {
+			isa = PBXGroup;
+			children = (
+				7AE8C7361A436A8B0022B021 /* GW2 Reports */,
+				7A300BD61A437B1C002E745F /* GW2Kit */,
+				CE7687381A364EC800D6D6BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE7687381A364EC800D6D6BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AE8C7351A436A8B0022B021 /* GW2 Reports.app */,
+				7A300BD51A437B1C002E745F /* GW2Kit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7A300BD21A437B1C002E745F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A300C381A437B78002E745F /* GWKHelpers.h in Headers */,
+				7A300C311A437B78002E745F /* GWKColor.h in Headers */,
+				7A300C4D1A437B78002E745F /* GWKPartialGuild.h in Headers */,
+				7A300C551A437B78002E745F /* GWKPartialObject.h in Headers */,
+				7A300C581A437B78002E745F /* GWKPartialSkin.h in Headers */,
+				7A300C691A437B78002E745F /* GWKWorlds.h in Headers */,
+				7A300BDA1A437B1C002E745F /* GW2Kit.h in Headers */,
+				7A300C5E1A437B78002E745F /* GWKRenderService.h in Headers */,
+				7A300C651A437B78002E745F /* GWKSkins.h in Headers */,
+				7A300C361A437B78002E745F /* GWKGuild.h in Headers */,
+				7A300C601A437B78002E745F /* GWKRequest.h in Headers */,
+				7A300C471A437B78002E745F /* GWKObjectives.h in Headers */,
+				7A300C3D1A437B78002E745F /* GWKItems.h in Headers */,
+				7A300C671A437B78002E745F /* GWKTileService.h in Headers */,
+				7A300C3A1A437B78002E745F /* GWKIconFile.h in Headers */,
+				7A300C331A437B78002E745F /* GWKConstants.h in Headers */,
+				7A300C621A437B78002E745F /* GWKRequestCallback.h in Headers */,
+				7A300C561A437B78002E745F /* GWKPartialRecipe.h in Headers */,
+				7A300C5C1A437B78002E745F /* GWKRecipes.h in Headers */,
+				7A300C411A437B78002E745F /* GWKMap.h in Headers */,
+				7A300C6B1A437B78002E745F /* GWKWvwMap.h in Headers */,
+				7A300C491A437B78002E745F /* GWKPartialColor.h in Headers */,
+				7A300C341A437B78002E745F /* GWKEvent.h in Headers */,
+				7A300C511A437B78002E745F /* GWKPartialMap.h in Headers */,
+				7A300C3B1A437B78002E745F /* GWKItem.h in Headers */,
+				7A300C531A437B78002E745F /* GWKPartialMatch.h in Headers */,
+				7A300C631A437B78002E745F /* GWKSkin.h in Headers */,
+				7A300C5A1A437B78002E745F /* GWKRecipe.h in Headers */,
+				7A300C451A437B78002E745F /* GWKMatches.h in Headers */,
+				7A300C431A437B78002E745F /* GWKMatch.h in Headers */,
+				7A300C4F1A437B78002E745F /* GWKPartialItem.h in Headers */,
+				7A300C3F1A437B78002E745F /* GWKJSONDecoding.h in Headers */,
+				7A300C4B1A437B78002E745F /* GWKPartialEvent.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7A300BD41A437B1C002E745F /* GW2Kit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A300BEE1A437B1C002E745F /* Build configuration list for PBXNativeTarget "GW2Kit" */;
+			buildPhases = (
+				7A300BD01A437B1C002E745F /* Sources */,
+				7A300BD11A437B1C002E745F /* Frameworks */,
+				7A300BD21A437B1C002E745F /* Headers */,
+				7A300BD31A437B1C002E745F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GW2Kit;
+			productName = GW2Kit;
+			productReference = 7A300BD51A437B1C002E745F /* GW2Kit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7AE8C7341A436A8B0022B021 /* GW2 Reports */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AE8C7591A436A8B0022B021 /* Build configuration list for PBXNativeTarget "GW2 Reports" */;
+			buildPhases = (
+				7AE8C7311A436A8B0022B021 /* Sources */,
+				7AE8C7321A436A8B0022B021 /* Frameworks */,
+				7AE8C7331A436A8B0022B021 /* Resources */,
+				7A300BF11A437B1C002E745F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A300BEB1A437B1C002E745F /* PBXTargetDependency */,
+			);
+			name = "GW2 Reports";
+			productName = "GW2 Reports";
+			productReference = 7AE8C7351A436A8B0022B021 /* GW2 Reports.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE76872E1A364EC800D6D6BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GWK;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Bolt Studio";
+				TargetAttributes = {
+					7A300BD41A437B1C002E745F = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					7AE8C7341A436A8B0022B021 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = CE7687311A364EC800D6D6BF /* Build configuration list for PBXProject "GW2Kit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE76872D1A364EC800D6D6BF;
+			productRefGroup = CE7687381A364EC800D6D6BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7AE8C7341A436A8B0022B021 /* GW2 Reports */,
+				7A300BD41A437B1C002E745F /* GW2Kit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A300BD31A437B1C002E745F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AE8C7331A436A8B0022B021 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AF50FD61A45713300D03D09 /* BlueKeep.png in Resources */,
+				7AF50FD41A45713300D03D09 /* BlueCamp.png in Resources */,
+				7AF50FD71A45713300D03D09 /* BlueTower.png in Resources */,
+				7AE8C7431A436A8B0022B021 /* Main.storyboard in Resources */,
+				7AE8C7481A436A8B0022B021 /* LaunchScreen.xib in Resources */,
+				7AE8C7451A436A8B0022B021 /* Images.xcassets in Resources */,
+				7AF50FD51A45713300D03D09 /* BlueCastle.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A300BD01A437B1C002E745F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A300C481A437B78002E745F /* GWKObjectives.m in Sources */,
+				7A300C5F1A437B78002E745F /* GWKRenderService.m in Sources */,
+				7A300C6A1A437B78002E745F /* GWKWorlds.m in Sources */,
+				7A300C641A437B78002E745F /* GWKSkin.m in Sources */,
+				7A300C351A437B78002E745F /* GWKEvent.m in Sources */,
+				7A300C3C1A437B78002E745F /* GWKItem.m in Sources */,
+				7A300C5B1A437B78002E745F /* GWKRecipe.m in Sources */,
+				7A300C421A437B78002E745F /* GWKMap.m in Sources */,
+				7A300C461A437B78002E745F /* GWKMatches.m in Sources */,
+				7A300C401A437B78002E745F /* GWKJSONDecoding.m in Sources */,
+				7A300C3E1A437B78002E745F /* GWKItems.m in Sources */,
+				7A300C4E1A437B78002E745F /* GWKPartialGuild.m in Sources */,
+				7A300C371A437B78002E745F /* GWKGuild.m in Sources */,
+				7A300C611A437B78002E745F /* GWKRequest.m in Sources */,
+				7A300C4C1A437B78002E745F /* GWKPartialEvent.m in Sources */,
+				7A300C501A437B78002E745F /* GWKPartialItem.m in Sources */,
+				7A300C571A437B78002E745F /* GWKPartialRecipe.m in Sources */,
+				7A300C321A437B78002E745F /* GWKColor.m in Sources */,
+				7A300C4A1A437B78002E745F /* GWKPartialColor.m in Sources */,
+				7A300C541A437B78002E745F /* GWKPartialMatch.m in Sources */,
+				7A300C391A437B78002E745F /* GWKHelpers.m in Sources */,
+				7A300C6C1A437B78002E745F /* GWKWvwMap.m in Sources */,
+				7A300C521A437B78002E745F /* GWKPartialMap.m in Sources */,
+				7A300C441A437B78002E745F /* GWKMatch.m in Sources */,
+				7A300C661A437B78002E745F /* GWKSkins.m in Sources */,
+				7A300C681A437B78002E745F /* GWKTileService.m in Sources */,
+				7A300C591A437B78002E745F /* GWKPartialSkin.m in Sources */,
+				7A300C5D1A437B78002E745F /* GWKRecipes.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AE8C7311A436A8B0022B021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AE8C7401A436A8B0022B021 /* ViewController.m in Sources */,
+				7AE8C73D1A436A8B0022B021 /* AppDelegate.m in Sources */,
+				7AE8C73A1A436A8B0022B021 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A300BEB1A437B1C002E745F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A300BD41A437B1C002E745F /* GW2Kit */;
+			targetProxy = 7A300BEA1A437B1C002E745F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7AE8C7411A436A8B0022B021 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AE8C7421A436A8B0022B021 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7AE8C7461A436A8B0022B021 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AE8C7471A436A8B0022B021 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A300BEF1A437B1C002E745F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GW2Kit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A300BF01A437B1C002E745F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = GW2Kit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7AE8C7551A436A8B0022B021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GW2 Reports/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7AE8C7561A436A8B0022B021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "GW2 Reports/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE76874B1A364EC800D6D6BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CE76874C1A364EC800D6D6BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A300BEE1A437B1C002E745F /* Build configuration list for PBXNativeTarget "GW2Kit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A300BEF1A437B1C002E745F /* Debug */,
+				7A300BF01A437B1C002E745F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AE8C7591A436A8B0022B021 /* Build configuration list for PBXNativeTarget "GW2 Reports" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AE8C7551A436A8B0022B021 /* Debug */,
+				7AE8C7561A436A8B0022B021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE7687311A364EC800D6D6BF /* Build configuration list for PBXProject "GW2Kit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE76874B1A364EC800D6D6BF /* Debug */,
+				CE76874C1A364EC800D6D6BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE76872E1A364EC800D6D6BF /* Project object */;
+}
