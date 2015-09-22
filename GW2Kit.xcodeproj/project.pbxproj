@@ -80,6 +80,8 @@
 		7AF50FD51A45713300D03D09 /* BlueCastle.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AF50FD11A45713300D03D09 /* BlueCastle.png */; };
 		7AF50FD61A45713300D03D09 /* BlueKeep.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AF50FD21A45713300D03D09 /* BlueKeep.png */; };
 		7AF50FD71A45713300D03D09 /* BlueTower.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AF50FD31A45713300D03D09 /* BlueTower.png */; };
+		C62D65821BB19A1E0073C5EB /* GWKColors.h in Headers */ = {isa = PBXBuildFile; fileRef = C62D65801BB19A1E0073C5EB /* GWKColors.h */; };
+		C62D65831BB19A1E0073C5EB /* GWKColors.m in Sources */ = {isa = PBXBuildFile; fileRef = C62D65811BB19A1E0073C5EB /* GWKColors.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -184,6 +186,8 @@
 		7AF50FD11A45713300D03D09 /* BlueCastle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlueCastle.png; sourceTree = "<group>"; };
 		7AF50FD21A45713300D03D09 /* BlueKeep.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlueKeep.png; sourceTree = "<group>"; };
 		7AF50FD31A45713300D03D09 /* BlueTower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlueTower.png; sourceTree = "<group>"; };
+		C62D65801BB19A1E0073C5EB /* GWKColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWKColors.h; sourceTree = "<group>"; };
+		C62D65811BB19A1E0073C5EB /* GWKColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWKColors.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -211,6 +215,8 @@
 				7A300BD91A437B1C002E745F /* GW2Kit.h */,
 				7A300BF51A437B78002E745F /* GWKColor.h */,
 				7A300BF61A437B78002E745F /* GWKColor.m */,
+				C62D65801BB19A1E0073C5EB /* GWKColors.h */,
+				C62D65811BB19A1E0073C5EB /* GWKColors.m */,
 				7A300BF71A437B78002E745F /* GWKConstants.h */,
 				7A300BF81A437B78002E745F /* GWKEvent.h */,
 				7A300BF91A437B78002E745F /* GWKEvent.m */,
@@ -365,6 +371,7 @@
 				7A300C411A437B78002E745F /* GWKMap.h in Headers */,
 				7A300C6B1A437B78002E745F /* GWKWvwMap.h in Headers */,
 				7A300C491A437B78002E745F /* GWKPartialColor.h in Headers */,
+				C62D65821BB19A1E0073C5EB /* GWKColors.h in Headers */,
 				7A300C341A437B78002E745F /* GWKEvent.h in Headers */,
 				7A300C511A437B78002E745F /* GWKPartialMap.h in Headers */,
 				7A300C3B1A437B78002E745F /* GWKItem.h in Headers */,
@@ -493,6 +500,7 @@
 				7A300C3C1A437B78002E745F /* GWKItem.m in Sources */,
 				7A300C5B1A437B78002E745F /* GWKRecipe.m in Sources */,
 				7A300C421A437B78002E745F /* GWKMap.m in Sources */,
+				C62D65831BB19A1E0073C5EB /* GWKColors.m in Sources */,
 				7A300C461A437B78002E745F /* GWKMatches.m in Sources */,
 				7A300C401A437B78002E745F /* GWKJSONDecoding.m in Sources */,
 				7A300C3E1A437B78002E745F /* GWKItems.m in Sources */,

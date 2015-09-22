@@ -10,7 +10,7 @@
 	<string>GW2Kit</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>4E60B06B2DDDE22FA1D9A903BE2DB6BA4919951A</key>
+		<key>5A276A4C898DF84AFB495843AD5A6576EAA9E9E7</key>
 		<string>bitbucket.org:romaintalleu/gw2kit.git</string>
 		<key>E588C07BA92C4BD076FF3C3C2B98F1FE747913BD</key>
 		<string>bitbucket.org:romaintalleu/cubrik.git</string>
@@ -19,7 +19,7 @@
 	<string>GW2Kit.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>4E60B06B2DDDE22FA1D9A903BE2DB6BA4919951A</key>
+		<key>5A276A4C898DF84AFB495843AD5A6576EAA9E9E7</key>
 		<string>../..</string>
 		<key>E588C07BA92C4BD076FF3C3C2B98F1FE747913BD</key>
 		<string>../../../cubrik</string>
@@ -29,7 +29,7 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>4E60B06B2DDDE22FA1D9A903BE2DB6BA4919951A</string>
+	<string>5A276A4C898DF84AFB495843AD5A6576EAA9E9E7</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -44,7 +44,7 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>4E60B06B2DDDE22FA1D9A903BE2DB6BA4919951A</string>
+			<string>5A276A4C898DF84AFB495843AD5A6576EAA9E9E7</string>
 			<key>IDESourceControlWCCName</key>
 			<string>GW2Kit</string>
 		</dict>

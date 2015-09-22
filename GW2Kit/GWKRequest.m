@@ -9,6 +9,7 @@
 #import "GWKRequest.h"
 
 #import "GWKColor.h"
+#import "GWKColors.h"
 #import "GWKConstants.h"
 #import "GWKEvent.h"
 #import "GWKGuild.h"
@@ -92,6 +93,10 @@
         [colorTmp setObject:[uriDetail objectAtIndex:1] forKey:@"color_id"];
         GWKColor* color = [GWKColor colorWithJSON:colorTmp];
         block(error, color);
+	} else if ([objectType isEqualToString:@"colors"]) {
+		NSString* urlString = [NSString stringWithFormat:@"%@v1/colors.json", GWKAPIBaseUrl];
+		GWKColors* colors = [GWKColors colorsWithJSON:[GWKJSONDecoding JSONFromURL:urlString error:error]];
+		block(error, colors);
     } else if ([objectType isEqualToString:@"objectives"]) {
         NSString* urlString = [NSString stringWithFormat:@"%@v1/wvw/objective_names.json?lang=%@", GWKAPIBaseUrl, lang];
         GWKObjectives* objs = [GWKObjectives objectivesWithJSON:[GWKJSONDecoding JSONFromURL:urlString error:error]];

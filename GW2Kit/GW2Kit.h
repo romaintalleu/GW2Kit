@@ -17,6 +17,7 @@ FOUNDATION_EXPORT const unsigned char GW2KitVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <GW2Kit/PublicHeader.h>
 
 #import "GWKColor.h"
+#import "GWKColors.h"
 #import "GWKConstants.h"
 #import "GWKEvent.h"
 #import "GWKGuild.h"
